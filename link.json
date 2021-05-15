@@ -22,25 +22,22 @@
   "frameworks": {
     "cmsis": {
       "package": "framework-cmsis",
-      "script": "builder/frameworks/cmsis.py",
-      "description": "The ARM Cortex Microcontroller Software Interface Standard (CMSIS) is a vendor-independent hardware abstraction layer for the Cortex-M processor series and specifies debugger interfaces. The CMSIS enables consistent and simple software interfaces to the processor for interface peripherals, real-time operating systems, and middleware. It simplifies software re-use, reducing the learning curve for new microcontroller developers and cutting the time-to-market for devices",
-      "homepage": "https://developer.arm.com/tools-and-software/embedded/cmsis",
-      "title": "CMSIS"
+      "script": "extend/frameworks/cmsis.py"
     },
     "libopencm3": {
       "package": "framework-libopencm3",
-      "script": "builder/frameworks/libopencm3.py"
+      "script": "extend/frameworks/libopencm3.py"
     },
     "arduino": {
       "package": "framework-arduinoststm32",
-      "script": "builder/frameworks/arduino.py"
+      "script": "extend/frameworks/arduino.py"
     },
     "stm32cube": {
-      "script": "builder/frameworks/stm32cube.py"
+      "script": "extend/frameworks/stm32cube.py"
     },
     "zephyr": {
       "package": "framework-zephyr",
-      "script": "builder/frameworks/zephyr.py"
+      "script": "extend/frameworks/zephyr.py"
     }
   },
   "packages": {

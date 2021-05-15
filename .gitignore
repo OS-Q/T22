@@ -34,3 +34,4 @@ docs/
 doc/
 *.md
 !core/CHANGELOG.md
+.travis.yml

@@ -26,7 +26,7 @@
     },
     "libopencm3": {
       "package": "framework-libopencm3",
-      "script": "builder/frameworks/libopencm3/libopencm3.py"
+      "script": "builder/frameworks/libopencm3.py"
     },
     "arduino": {
       "package": "framework-arduinoststm32",

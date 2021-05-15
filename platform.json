@@ -36,11 +36,11 @@
       "script": "builder/frameworks/arduino.py"
     },
     "stm32cube": {
-      "script": "builder/frameworks/stm32cube.py",
+      "script": "builder/frameworks/stm32cube.py"
     },
     "zephyr": {
       "package": "framework-zephyr",
-      "script": "builder/frameworks/zephyr.py",
+      "script": "builder/frameworks/zephyr.py"
     }
   },
   "packages": {
